@@ -1,5 +1,4 @@
 # SCT_WD_03
-🎮 Tic-Tac-Toe Game
 A responsive and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 Features include:
  -Two-player mode for local multiplayer fun
