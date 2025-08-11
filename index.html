@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tic-Tac-Toe Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container" role="main" aria-label="Tic Tac Toe game container">
+    <h1>Tic Tac Toe</h1>
+    <div class="mode-select" role="radiogroup" aria-labelledby="mode-label">
+      <span id="mode-label" style="color:#eee;">Play Mode:</span>
+      <label>
+        <input type="radio" name="mode" value="two-players" checked />
+        2 Players
+      </label>
+      <label>
+        <input type="radio" name="mode" value="vs-computer" />
+        Vs Computer
+      </label>
+    </div>
+    <div class="board" role="grid" aria-label="Tic Tac Toe board" tabindex="0">
+      <div class="cell" data-index="0" role="gridcell" aria-label="Cell 1" tabindex="0"></div>
+      <div class="cell" data-index="1" role="gridcell" aria-label="Cell 2" tabindex="0"></div>
+      <div class="cell" data-index="2" role="gridcell" aria-label="Cell 3" tabindex="0"></div>
+      <div class="cell" data-index="3" role="gridcell" aria-label="Cell 4" tabindex="0"></div>
+      <div class="cell" data-index="4" role="gridcell" aria-label="Cell 5" tabindex="0"></div>
+      <div class="cell" data-index="5" role="gridcell" aria-label="Cell 6" tabindex="0"></div>
+      <div class="cell" data-index="6" role="gridcell" aria-label="Cell 7" tabindex="0"></div>
+      <div class="cell" data-index="7" role="gridcell" aria-label="Cell 8" tabindex="0"></div>
+      <div class="cell" data-index="8" role="gridcell" aria-label="Cell 9" tabindex="0"></div>
+    </div>
+    <div class="status" aria-live="polite" aria-atomic="true" role="status"></div>
+    <div class="controls">
+      <button id="restartBtn" type="button" aria-label="Restart game">Restart</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
